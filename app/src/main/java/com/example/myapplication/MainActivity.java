@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     operation = unit.getSelectedItem().hashCode();
                     if(operation == 663366334) {
                         result1 = Double.valueOf(str0) * 1.8 + 32;
-                        result2 = Double.valueOf(str0) * 274.15;
+                        result2 = Double.valueOf(str0) + 273.15;
                         DecimalFormat df = new DecimalFormat(("#.00"));
                         String r1 = df.format(result1);
                         String r2 = df.format(result2);
